@@ -1,7 +1,7 @@
 .item-card{
   background-size: cover;
   background-position: center;
-  border: 2px solid black;
+  border: 3px solid black;
   display: inline-block;
   box-sizing: border-box;
   position: relative;
@@ -36,7 +36,7 @@
 
 .item-description{
   background-image: url('../imgs/bg8.png');
-  border: 2px solid black;
+  border: 3px solid black;
   width: fit-content;
   padding: 2% 5%;
 }

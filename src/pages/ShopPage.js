@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import ItemCard from "../components/ItemCard";
+import Footer from "../components/Footer";
 import "../css/ShopPage.css";
 import items from "../Items.js";
 
@@ -24,6 +25,7 @@ function ShopPage() {
         })}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
