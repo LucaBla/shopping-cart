@@ -1,5 +1,14 @@
+
+
 .App {
   text-align: center;
+  background-color: white;
+  height: 100vh;
+  font-family:'komika', 'Courier New';
+}
+
+button{
+  font-family:'komika', 'Courier New';
 }
 
 .App-logo {
@@ -35,4 +44,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face{
+  font-family: "komika";
+  src: url(./fonts/komika.hand.ttf);
+}
+
+@font-face{
+  font-family: "gooddog";
+  src: url(./fonts/gooddog-cool.regular.ttf);
 }
