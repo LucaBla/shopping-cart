@@ -13,7 +13,7 @@ function Header() {
         </div>
         <div className="right-header">
           <Link to="/shop">Shop</Link>
-          <Link to="/cart"><i className="fas fa-shopping-basket"></i></Link>
+          <Link to="/cart"><i className="fas fa-shopping-cart"></i></Link>
         </div>
       </div>
     </header>
