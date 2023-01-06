@@ -7,7 +7,7 @@ import items from "../Items.js";
 function ShopPage() {
   return (
     <div className="shop">
-      <Header></Header>
+      
       <div className="content-wrapper">
         <div className="news">
           <div className="news-description">
@@ -25,7 +25,6 @@ function ShopPage() {
         })}
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

@@ -11,7 +11,6 @@ function ItemPage() {
 
   return (
     <div className="item-page">
-      <Header></Header>
       <div className="item-page-content">
         <div className="img-wrapper">
           <img className="item-page-img" src={require("../imgs/items/" + item.img)} alt=""/>
@@ -40,7 +39,6 @@ function ItemPage() {
           {item.description}
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }
