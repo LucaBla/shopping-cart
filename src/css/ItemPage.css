@@ -80,7 +80,7 @@
 }
 
 .item-page-content .item-overview{
-  background-image: url('../imgs/bg8.png');
+  background-image: url('../imgs/bg9.png');
   grid-area: ov;
   border: 3px solid black;
   text-align: left;
@@ -97,7 +97,7 @@
   border: none;
   width: auto;
   padding: 20px 20px;
-  background-image: url('../imgs/bg8.png');
+  background-image: url('../imgs/bg9.png');
   border: 3px solid black;
   grid-area: desc;
   text-align: left;
