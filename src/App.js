@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import RouteSwitch from './RouteSwitch';
 import { useState } from 'react';

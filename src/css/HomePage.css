@@ -34,6 +34,7 @@
   border: 3px solid black;
   width: 70%;
   height: calc(100% - 5px);
+  position: relative;
 }
 
 h2{
@@ -42,7 +43,7 @@ h2{
 
 .pugman{
   position: absolute;
-  bottom: 50px;
+  bottom: 25%;
   right: 10%;
   width: 50%;
   max-width: 750px;
@@ -91,6 +92,132 @@ h2{
 
 .shop-now-btn:hover{
   background-color: #b3463c;
+}
+
+@media screen and (max-width: 1000px) {
+  .content-wrapper{
+    flex-direction: column-reverse;
+  }
+  .text-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  .img-wrapper{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pugman{
+    position: absolute;
+    width: 300px;
+    right: unset;
+    margin: auto 30%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .text-wrapper h2{
+    font-size: 18px;
+  }
+
+  .text-wrapper .grid{
+    gap: 5px;
+  }
+
+  .grid-item-icon i{
+    font-size: 24px;
+  }
+
+  .shop-btn-wrapper{
+    margin: 20px auto;
+  }
+
+  .shop-now-btn{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-wrapper h2{
+    margin: 5px;
+  }
+
+  .grid{
+    margin-top: 10px;
+  }
+
+  .pugman{
+    position: absolute;
+    width: 200px !important;
+    right: unset;
+    margin: auto 30%;
+  }
+
+  .shop-now-btn{
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .text-wrapper{
+    font-size: 14px;
+  }
+
+  .text-wrapper h2{
+    margin: 5px;
+  }
+
+  .grid{
+    margin-top: 10px;
+  }
+
+  .pugman{
+    position: absolute;
+    width: 40vh;
+    right: unset;
+    margin: auto 30%;
+  }
+
+  .shop-btn-wrapper{
+    margin: 20px auto;
+  }
+
+  .shop-now-btn{
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-height: 550px){
+  .home{
+    height: unset;
+  }
+
+  .grid{
+    justify-content: center;
+  }
+
+  .grid-item-icon i{
+    font-size: 20px;
+  }
+
+  .img-wrapper{
+    height: 50vh;
+  }
 }
 
 @keyframes float {

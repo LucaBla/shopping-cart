@@ -142,4 +142,25 @@
                          "ov ov ov"
                          "desc desc desc";
   }
+
+  .item-name-price{
+    flex-wrap: wrap;
+  }
+
+  .item-name-price h2{
+    font-size: 20px;
+  }
+
+  .item-name-price .price-and-buy{
+    font-size: 16px;
+  }
+
+  .buy-btn-wrapper{
+    margin-bottom: 5px;
+  }
+
+  .buy-btn-wrapper button i{
+    font-size: 16px;
+  }
+  
 }

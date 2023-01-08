@@ -65,6 +65,27 @@ button .cart-item-amount{
   animation: drive 0.5s ease-in-out;
 }
 
+@media screen and (max-height: 450px) {
+  .header-content h1{
+    font-size: 30px;
+  }
+
+  .header-content .right-header{
+    font-size: 14px;
+  }
+
+  .header-content .right-header button i{
+    font-size: 16px;
+  }
+
+  .header-content .right-header button .cart-item-amount{
+    font-size: 10px;
+    padding: 0px 2px;
+    top: -8px;
+    right: -2px;
+  }
+}
+
 @keyframes drive {
   0% {transform: translate(0);}
   25% {transform: translate(5px);}

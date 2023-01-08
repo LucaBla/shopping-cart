@@ -30,3 +30,17 @@
   text-decoration: underline;
   color: black;
 }
+
+@media screen and (max-width: 400px) {
+  .checkout h2{
+    font-size: 20px;
+  }
+
+  .checkout h3{
+    font-size: 16px;
+  }
+
+  .order-item-name-and-amount{
+    position: relative;
+  }
+}
