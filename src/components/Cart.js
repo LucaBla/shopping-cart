@@ -12,6 +12,9 @@ function Cart(props) {
     if(total <= 0){
       e.preventDefault();
     }
+    else{
+      props.setIsCartOpen(false);
+    }
   }
 
   if(useLocation().pathname === '/'){

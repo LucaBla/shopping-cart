@@ -15,6 +15,9 @@ function ItemPage(props) {
   let item = items[id];
 
   function handleAddToCart(){
+    if(itemAmount <= 0){
+      return;
+    }
     let newCart = {...props.cart};
     if(newCart[id]){
       newCart[id]+= itemAmount;
@@ -59,7 +62,7 @@ function ItemPage(props) {
           <div className="price-and-buy number">
           {item.price}$
           x
-          <input type="number" value={itemAmount} onInput={e => setItemAmount(parseInt(e.target.value))}></input>
+          <input type="number" value={itemAmount || ''} onInput={e => setItemAmount(parseInt(e.target.value)) || 0}></input>
           <div className="buy-btn-wrapper">
             <button onClick={handleAddToCart}>
               <i className="fas fa-cart-plus"></i>
