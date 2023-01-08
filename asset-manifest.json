@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.358036ac.css",
+    "main.js": "/shopping-cart/static/js/main.f3329efb.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/news-bg.png": "/shopping-cart/static/media/news-bg.516f58852f0fadfffbec.png",
+    "static/media/bg.png": "/shopping-cart/static/media/bg.771fa515e9517c7fc568.png",
+    "static/media/pug_sticker.png": "/shopping-cart/static/media/pug_sticker.bee6f74cfc4d5ca1ad0a.png",
+    "static/media/pug_plush.png": "/shopping-cart/static/media/pug_plush.740eb855a79e2f5b7311.png",
+    "static/media/pug_mousepad.png": "/shopping-cart/static/media/pug_mousepad.0a727da78f4961a5ee74.png",
+    "static/media/pug_dog_toy.png": "/shopping-cart/static/media/pug_dog_toy.0db52a9c01165f318840.png",
+    "static/media/pug_poster.png": "/shopping-cart/static/media/pug_poster.d3bb55fc2edb3c29c0d7.png",
+    "static/media/pug_towel.png": "/shopping-cart/static/media/pug_towel.ca8d6c88ed43d45d37a8.png",
+    "static/media/pug_notebook.png": "/shopping-cart/static/media/pug_notebook.87cb2c8dc070c654039d.png",
+    "static/media/pug_mug.png": "/shopping-cart/static/media/pug_mug.4debb82bbdd3ab5ad2b9.png",
+    "static/media/pug_videogame.png": "/shopping-cart/static/media/pug_videogame.06f026b2e3a1faa61706.png",
+    "static/media/pug_bedding.png": "/shopping-cart/static/media/pug_bedding.a922b3fe87c836d07a4f.png",
+    "static/media/pug_socks.png": "/shopping-cart/static/media/pug_socks.ff64fe9650fcbf7ba7dc.png",
+    "static/media/pug_bottle.png": "/shopping-cart/static/media/pug_bottle.b63d547bae8e3d5924c3.png",
+    "static/media/pug_bag.png": "/shopping-cart/static/media/pug_bag.892192b545d5afd286c3.png",
+    "static/media/pug_season1.png": "/shopping-cart/static/media/pug_season1.842884b09b7489ed609d.png",
+    "static/media/pug_hero2.png": "/shopping-cart/static/media/pug_hero2.44c882c9d916664876cf.png",
+    "static/media/pug_cup_transparent_comic.png": "/shopping-cart/static/media/pug_cup_transparent_comic.f2fe77c3420db4d442dc.png",
+    "static/media/pug_calendar.png": "/shopping-cart/static/media/pug_calendar.ee3ac81aad6f807abb3a.png",
+    "static/media/pug_collar.png": "/shopping-cart/static/media/pug_collar.97fd87745b1769c591c6.png",
+    "static/media/pug_dog_grooming.png": "/shopping-cart/static/media/pug_dog_grooming.2068b1526da58f20a04e.png",
+    "static/media/pug_t_shirt.png": "/shopping-cart/static/media/pug_t_shirt.f3f1d132f2d4ffbaa64b.png",
+    "static/media/bg9.png": "/shopping-cart/static/media/bg9.0fccbcdd760f74037935.png",
+    "static/media/bg8.png": "/shopping-cart/static/media/bg8.1e059af0401e561c7dfb.png",
+    "static/media/komika.hand.ttf": "/shopping-cart/static/media/komika.hand.36faaae2c090fbfbf7b7.ttf",
+    "static/media/gooddog-cool.regular.ttf": "/shopping-cart/static/media/gooddog-cool.regular.61cc06d805b2e6a056ba.ttf",
+    "index.html": "/shopping-cart/index.html",
+    "main.358036ac.css.map": "/shopping-cart/static/css/main.358036ac.css.map",
+    "main.f3329efb.js.map": "/shopping-cart/static/js/main.f3329efb.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.358036ac.css",
+    "static/js/main.f3329efb.js"
+  ]
+}
