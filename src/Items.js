@@ -2,7 +2,7 @@ const Items = [
   {
     itemId: 0,
     name: "Mug",
-    price: "12 .99",
+    price: "12.99",
     description: `The Pugman mug is the perfect choice for any fan of the Pug superhero!
                   Featuring an adorable Pug design, this mug is sure to bring a smile to your face. 
                   Made from high-quality ceramic, it is both durable and microwave safe. 
@@ -17,7 +17,7 @@ const Items = [
   {
     itemId: 1,
     name: "Socks",
-    price: "9 .99",
+    price: "9.99",
     description: `Our Pugman socks are the perfect addition to any sock collection! 
                   Featuring an adorable Pug design, these socks are sure to bring a smile to your face. 
                   Made from a soft and comfortable material, these socks will keep your feet warm and cozy all day long. 
@@ -31,7 +31,7 @@ const Items = [
   {
     itemId: 2,
     name: "T-Shirt",
-    price: "19 .99",
+    price: "19.99",
     description: `Our Pugman t-shirt is the perfect choice for any fan of the Pug superhero! 
                   Made from high-quality, comfortable material, this t-shirt is sure to become a staple in your wardrobe. 
                   The shirt features an adorable Pug design, showcasing your love for the superhero. 
@@ -45,7 +45,7 @@ const Items = [
   {
     itemId: 3,
     name: "Bedding",
-    price: "29 .99",
+    price: "29.99",
     description: `Our Pugman bedding is the perfect choice for any fan of the Pug superhero! 
                   This bedding set includes a comforter, sheets, and pillowcases, all featuring an adorable Pug design. 
                   Made from high-quality, comfortable material, this bedding is sure to become a staple in your home. 
@@ -59,7 +59,7 @@ const Items = [
   {
     itemId: 4,
     name: "Poster",
-    price: "6 .99",
+    price: "6.99",
     description: `Our Pugman poster is the perfect choice for any fan of the Pug superhero! 
                   This high-quality poster features an adorable Pug design, sure to bring a smile to your face every time you look at it. 
                   The poster is printed on glossy, heavyweight paper, ensuring that the colors are vibrant and the image is clear. 
@@ -72,7 +72,7 @@ const Items = [
   {
     itemId: 5,
     name: "Plush",
-    price: "8 .99",
+    price: "8.99",
     description: `Our Pugman plush is the perfect choice for any fan of the Pug superhero! 
                   This high-quality plush toy is made from soft and cuddly material, making it the perfect companion for snuggles and playtime. 
                   The plush features an adorable Pug design, showcasing your love for the superhero. 
@@ -86,7 +86,7 @@ const Items = [
   {
     itemId: 6,
     name: "Sticker x10",
-    price: "4 .99",
+    price: "4.99",
     description: `Our Pugman stickers are the perfect choice for any fan of the Pug superhero! 
                   This set includes 10 high-quality stickers, featuring an adorable Pug design. 
                   The stickers are made from durable material, making them suitable for indoor or outdoor use. 
@@ -102,7 +102,7 @@ const Items = [
   {
     itemId: 7,
     name: "Notebook",
-    price: "4 .99",
+    price: "4.99",
     description: `Our Pugman notebook is the perfect choice for any fan of the Pug superhero! 
                   This high-quality notebook features an adorable Pug design on the cover, making it both functional and stylish. 
                   The notebook has a durable construction and is made from eco-friendly materials, making it a great choice for those who are environmentally conscious. 
@@ -116,7 +116,7 @@ const Items = [
   {
     itemId: 8,
     name: "Bag",
-    price: "3 .99",
+    price: "3.99",
     description: `Our Pugman bag is the perfect choice for any fan of the Pug superhero! 
                   This high-quality bag is made from durable materials and features an adorable Pug design, making it both functional and stylish. 
                   The bag has a spacious interior, perfect for holding all of your essentials. 
@@ -130,7 +130,7 @@ const Items = [
   {
     itemId: 9,
     name: "Calendar",
-    price: "2 .99",
+    price: "2.99",
     description: `Our Pugman calendar is the perfect choice for any fan of the Pug superhero! 
                   This high-quality calendar features an adorable Pug design on every page, making it both functional and stylish. 
                   The calendar has a spiral binding, making it easy to turn the pages and keep track of the days. 
@@ -145,7 +145,7 @@ const Items = [
   {
     itemId: 10,
     name: "Water Bottle",
-    price: "7 .99",
+    price: "7.99",
     description: `Our Pugman water bottle is the perfect choice for any fan of the Pug superhero! 
                   This high-quality water bottle is made from durable materials and features an adorable Pug design, making it both functional and stylish. 
                   The water bottle has a spacious interior, perfect for holding plenty of water to keep you hydrated throughout the day. 
@@ -159,7 +159,7 @@ const Items = [
   {
     itemId: 11,
     name: "Towel",
-    price: "5 .99",
+    price: "5.99",
     description: `Our Pugman towel is the perfect choice for any fan of the Pug superhero! 
                   This high-quality towel is made from soft and absorbent material, making it the perfect choice for drying off after a shower, swimming, or working out. 
                   The towel features an adorable Pug design, making it both functional and stylish. 
@@ -173,7 +173,7 @@ const Items = [
   {
     itemId: 12,
     name: "Dog Toy",
-    price: "5 .99",
+    price: "5.99",
     description: `Our Pugman dog toy is the perfect choice for any fan of the Pug superhero and their furry friend! 
                   This high-quality dog toy is made from durable materials and features an adorable Pug design, making it both functional and stylish. 
                   The toy is perfect for playing fetch, tug-of-war, and other interactive games with your dog. 
@@ -186,7 +186,7 @@ const Items = [
   {
     itemId: 13,
     name: "Dog Grooming Kit",
-    price: "12 .99",
+    price: "12.99",
     description: `Our Pugman dog grooming kit is the perfect choice for any fan of the Pug superhero and their furry friend! 
                   This high-quality kit includes all the tools you need to keep your dog looking and feeling their best. 
                   The kit includes 2x shampoo, a conditioner and a brush all featuring an adorable Pug design. 
@@ -199,7 +199,7 @@ const Items = [
   {
     itemId: 14,
     name: "Collar",
-    price: "3 .99",
+    price: "3.99",
     description: `Our Pugman collar is the perfect choice for any fan of the Pug superhero and their furry friend! 
                   This high-quality collar is made from durable materials and features an adorable Pug design, making it both functional and stylish. 
                   The collar has a secure buckle and is adjustable, ensuring a perfect fit for your dog. 
@@ -212,7 +212,7 @@ const Items = [
   {
     itemId: 15,
     name: "Pugman Season 1 (CD)",
-    price: "19 .99",
+    price: "19.99",
     description: `Our Pugman Season 1 CD is the perfect choice for any fan of the Pug superhero! 
                   This CD features all the episodes from the first season of the popular animated series. 
                   The CD comes in a sleek, compact design, making it easy to store and transport. 
@@ -225,7 +225,7 @@ const Items = [
   {
     itemId: 16,
     name: "Mousepad",
-    price: "3 .99",
+    price: "3.99",
     description: `Our Pugman mousepad is the perfect choice for any fan of the Pug superhero! 
                   This high-quality mousepad is made from durable materials and features an adorable Pug design, making it both functional and stylish. 
                   The mousepad has a non-slip backing, ensuring that it stays in place while you work. 
@@ -237,7 +237,7 @@ const Items = [
   {
     itemId: 17,
     name: "Videogame (CD)",
-    price: "39 .99",
+    price: "39.99",
     description: `The Pugman videogame is the perfect choice for any fan of the Pug superhero! 
                   It features an exciting and engaging story starring the beloved Pug superhero. 
                   It's the perfect way to experience the adventures of Pugman in a whole new way. 

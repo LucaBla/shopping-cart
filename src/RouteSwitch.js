@@ -12,15 +12,17 @@ const RouteSwitch = (props) => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Header isCartOpen={props.isCartOpen} setIsCartOpen={props.setIsCartOpen}></Header>
+      <Header cart={props.cart} setCart={props.setCart} 
+              isCartOpen={props.isCartOpen} setIsCartOpen={props.setIsCartOpen}>      
+      </Header>
       {props.isCartOpen &&
-        <Cart></Cart>
+        <Cart cart={props.cart} setCart={props.setCart} isCartOpen={props.isCartOpen} setIsCartOpen={props.setIsCartOpen}></Cart>
       }
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage isCartOpen={props.isCartOpen} setIsCartOpen={props.setIsCartOpen}/>} />
         <Route path="/shop" element={<ShopPage/>}/>
-        <Route path="/shop/:id" element={<ItemPage />} />
-        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/shop/:id" element={<ItemPage cart={props.cart} setCart={props.setCart} />}/>
+        <Route path="/checkout" element={<CheckoutPage cart={props.cart} setCart={props.setCart} />} />
       </Routes>
       <Footer></Footer>
     </BrowserRouter>

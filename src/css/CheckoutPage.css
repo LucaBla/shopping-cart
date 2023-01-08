@@ -1,0 +1,27 @@
+.checkout{
+  background-image: url('../imgs/bg9.png');
+  margin-top: -20px;
+  padding-top: 20px;
+  min-height: 84vh;
+}
+
+.order-item-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.order-item-name-and-amount{
+  position: absolute;
+}
+
+.order-total{
+  background-color: #AD3025;
+  color: white;
+  width: fit-content;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  padding: 5px 10px;
+}

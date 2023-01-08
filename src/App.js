@@ -4,11 +4,12 @@ import RouteSwitch from './RouteSwitch';
 import { useState } from 'react';
 
 function App() {
+  const [cart, setCart] = useState({});
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   return (
     <div className="App">
-      <RouteSwitch isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen}/>
+      <RouteSwitch cart={cart} setCart={setCart} isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen}/>
     </div>
   );
 }

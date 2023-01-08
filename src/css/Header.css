@@ -48,4 +48,34 @@ header h1{
   background: none;
   border: transparent;
   cursor: pointer;
+  position: relative;
+}
+
+button .cart-item-amount{
+  background-color: #AD3025;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+  padding: 0px 5px;
+  border: 2px solid black;
+}
+
+.animated{
+  animation: drive 0.5s ease-in-out;
+}
+
+@keyframes drive {
+  0% {transform: translate(0);}
+  25% {transform: translate(5px);}
+  50% {transform: translate(10px);}
+  75% {transform: translate(5px);}
+  100% {transform: translate(0px);}
+}
+
+@keyframes drive2 {
+  0% {transform: scale(0);}
+  60% {transform: scale(1);}
+  60% {transform: scale(1.1);}
+  100% {transform: scale(1);}
 }

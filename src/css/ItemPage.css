@@ -1,5 +1,6 @@
 .item-page{
   margin-bottom: 10px;
+  position: relative;
 }
 
 .item-page header{
@@ -35,6 +36,7 @@
   width: fit-content;
   height: fit-content;
   grid-area: img;
+  
 }
 
 .item-page-content .item-name-price{
@@ -58,6 +60,19 @@
   background-color: white;
   width: fit-content;
   margin-left: 10px;
+}
+
+.item-name-price input{
+  margin-left: 10px;
+  width: 50px;
+  border: 3px solid black;
+  font-size: 16px;
+  font-family: 'komika';
+  text-align: center;
+}
+
+.item-name-price input:focus{
+  outline: none;
 }
 
 .item-name-price button{
@@ -110,4 +125,21 @@
 
 .item-page-content .img-wrapper .item-page-img{
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .item-page-content{
+    grid-template-areas: "info info info"
+                         "img ov ov"
+                         "desc desc desc";
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item-page-content{
+    grid-template-areas: "info info info"
+                         "img img img"
+                         "ov ov ov"
+                         "desc desc desc";
+  }
 }

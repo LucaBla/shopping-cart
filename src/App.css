@@ -11,6 +11,10 @@ body{
   font-family:'komika', 'Courier New';
 }
 
+.number{
+  letter-spacing: 4px;
+}
+
 button{
   font-family:'komika', 'Courier New';
 }
@@ -39,6 +43,12 @@ button{
 
 .App-link {
   color: #61dafb;
+}
+
+@media screen and (max-width: 500px) {
+  .App{
+    font-size: 16px;
+  }
 }
 
 @keyframes App-logo-spin {

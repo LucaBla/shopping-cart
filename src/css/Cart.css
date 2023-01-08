@@ -29,6 +29,10 @@
   margin: 0px;
 }
 
+.total-price{
+  font-size: 20px;
+}
+
 .cart-header .checkout-btn-wrapper{
   padding: 3px;
   background-color: white;
@@ -57,4 +61,17 @@
   gap: 10px;
   margin: 10px 0px;
   grid-template-columns: 100%;
+}
+
+.cart-item-grid a{
+  text-decoration: none;
+}
+
+.cart-header .disabled{
+  background-color: grey;
+  cursor:not-allowed;
+}
+
+.cart-header .disabled:hover{
+  background-color: grey;
 }

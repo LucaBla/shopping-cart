@@ -1,3 +1,8 @@
+.item-card-link{
+  text-decoration: none;
+  color: black;
+}
+
 .cart-item{
   background-image: url('../imgs/bg8.png');
   border: 3px solid black;
@@ -19,6 +24,8 @@
   justify-content: center;
   text-align: center;
   width: 100%;
+  color: black;
+  text-decoration: none;
 }
 
 .cart-item-price{
@@ -26,4 +33,34 @@
   bottom: 10px;
   right: 10px;
   text-decoration: underline;
+  color: black;
+}
+
+.cart-item .cart-item-remove{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.cart-item .cart-item-remove-btn-wrapper{
+  padding: 3px;
+  background-color: white;
+  width: fit-content;
+  margin-left: 10px;
+}
+
+.cart-item button{
+  background-color: #AD3025;
+  border: 3px solid black;
+  color: white;
+  width: fit-content;
+  display: block;
+  padding: 0px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cart-item button:hover{
+  background-color: #b3463c;
 }

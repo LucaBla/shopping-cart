@@ -2,8 +2,18 @@ import React from "react";
 import "../css/HomePage.css";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
-function HomePage() {
+function HomePage(props) {
+
+  useEffect(() => {
+    if(props.isCartOpen){
+      props.setIsCartOpen(false);
+    }
+  
+  }, [])
+  
+
   return (
     <div className="home">
       <Header></Header>
