@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 const RouteSwitch = (props) => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-cart">
       <ScrollToTop />
       <Header cart={props.cart} setCart={props.setCart} 
               isCartOpen={props.isCartOpen} setIsCartOpen={props.setIsCartOpen}>      
