@@ -6,6 +6,7 @@ import "../css/ItemPage.css";
 import "../App.css";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function ItemPage(props) {
   const [isItemAdded, setIsItemAdded] = useState(false);

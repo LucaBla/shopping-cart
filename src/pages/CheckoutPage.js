@@ -2,10 +2,10 @@ import "../css/CheckoutPage.css";
 import OrderItem from "../components/OrderItem";
 import items from "../Items";
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function CheckoutPage(props) {
   const [order, setOrder] = useState(props.cart);
-  
 
   useEffect(() => {
     const timeout = setTimeout(() => {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/HomePage.css";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 function HomePage(props) {
@@ -12,7 +12,6 @@ function HomePage(props) {
     }
   
   }, [])
-  
 
   return (
     <div className="home">

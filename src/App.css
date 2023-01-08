@@ -51,9 +51,12 @@ button{
 .loading-screen{
   background-color: white;
   height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position:fixed;
+  z-index: 2;
 }
 
 .lds-ring {
@@ -82,6 +85,10 @@ button{
 }
 .lds-ring div:nth-child(3) {
   animation-delay: -0.15s;
+}
+
+.hidden{
+  display: none;
 }
 
 @media screen and (max-width: 500px) {
